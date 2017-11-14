@@ -1,3 +1,7 @@
+body {
+	padding: 0;
+	margin: 0;
+}
 
 .right_menu {
 	margin: 0;
@@ -87,23 +91,9 @@ div.main {
 	text-align: center;
 }
 
-input.search {
-	display: block;
-	width: 300px;
-	height: 40px;
-	margin: 0 auto;
-	border: 1px solid #CCC;
-	-webkit-box-shadow: 0px 2px 2px 0px #CCC;
-	        box-shadow: 0px 2px 2px 0px #CCC;
-	-webkit-border-radius: 2px;
-	        border-radius: 2px;
-}
-
 div.logo {
 	position: relative;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 4em;
+	font-size: 6em;
 }
 
 .logo span {
@@ -127,9 +117,73 @@ div.logo {
 }
 
 .country {
-	color: #08F;
-	font-size: .4em;
+	color: #888;
+	font-size: .2em;
 	position: absolute;
-	bottom: 2px;
+	bottom: 0;
 	right: 40%;
+}
+
+input.search {
+	display: block;
+	width: 500px;
+	height: 40px;
+	margin: 20px auto;
+	border: 1px solid #CCC;
+	-webkit-box-shadow: 0px 2px 2px 0px #CCC;
+	        box-shadow: 0px 2px 2px 0px #CCC;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.buttons input {
+	font-weight: bold;
+	background-color: #EEE;
+	border: none;
+	padding: 8px 30px;
+	color: #777;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #DDD;
+	left: 0;
+}
+
+.footer {
+	height: 35px;
+	padding-left: 15px;
+	line-height: 35px;
+	vertical-align: middle;
+	border-top: 1px solid #BBB;
+	color: #666;
+}
+
+.footer div {
+	display: inline-block;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer_left li {
+	padding-right: 20px;
+}
+
+.footer_right {
+	float: right;
+	padding-right: 20px;
+}
+
+.footer_right li {
+	padding-left: 20px;
 }
