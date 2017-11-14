@@ -1,0 +1,93 @@
+.right_menu {
+	position: absolute;
+	right: 0;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
+.right_menu * {
+	padding-left: 20px;
+}
+
+.gapp {
+	float: right;
+	width: 36px;
+	height: 36px;
+	position: relative;
+}
+
+.gapps {
+	padding-left: 0;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: #AAA;
+}
+
+.app1 {
+	top: 0;
+	left: 0;
+}
+
+.app2 {
+	top: 0;
+	left: 13px;
+}
+
+.app3 {
+	top: 0;
+	left: 26px;
+}
+
+.app4{
+	top: 13px;
+	left: 0;
+}
+
+.app5 {
+	top: 13px;
+	left: 13px;
+}
+
+.app6 {
+	top: 13px;
+	left: 26px;
+}
+
+.app7 {
+	top: 26px;
+	left: 0;
+}
+
+.app8 {
+	top: 26px;
+	left: 13px;
+}
+
+.app9 {
+	top: 26px;
+	left: 26px;
+}
+
+div.main {
+	position: absolute;
+	height: 250px;
+	float: none;
+	width: 100%;
+	height: auto;
+}
+
+input.main {
+	position: relative;
+	top: 250px;
+	left: 500px;
+	width: 300px;
+	height: 40px;
+	-webkit-box-shadow: 0px 2px 2px 0px #CCC;
+	        box-shadow: 0px 2px 2px 0px #CCC;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+}
+
